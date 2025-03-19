@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display:flex;
+
+  justify-content: center;
+  background-image: url(../img/backroundmain.png);
+  background-size: stretch;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: auto;
+  height: 100vh; 
+  width: auto;   
+  margin: 0;
+  padding: 0;
+  background-attachment: fixed;
+  justify-content: center;
+}
+
+.main_container {
+  display: flex;
+  position: sticky;
+  background-image: url(../img/bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-left:10%;
+  padding-right:10%;
+  background-size: 75%;
+}
+
+.sub_container1 {
+  display: flex;
+  flex-direction: row;
+  padding:10%;
+}
+
+.sub_container2 {
+  display: flex;
+  flex-direction: column;
+  padding-top:5%;
+  padding-bottom: 5%;
+  padding-right: 5%;
+  padding-left:15%;
+}
+
+.options {
+ display: flex;
+ flex-direction: column;
+}
+
+h2 {
+  font-family: "Fleur De Leah", cursive;
+  letter-spacing: 3px;
+  font-size: 45px;
+
+  align-content: center;
+}
+h3 {
+  font-family: "Bilbo", cursive;
+
+  font-size: 36px;
+}
+
+a {
+  font-family: "Bilbo", cursive;
+text-decoration: none;
+color: black;
+  margin: 1%;
+  margin-top:1%;
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+img {
+  padding-right: 10%;
+  padding-left:20%;
+  width: 450px;
+}
+
+
+
+p {
+  font-family: "Luxurious Roman", serif;
+
+font-size: 26px;
+padding-top: 5%;
+padding-bottom: 5%;
+padding-right: 10%;
+text-align: justify;
+justify-content: center;
+}
+
+footer {
+  
+  text-align: center;
+
+}
