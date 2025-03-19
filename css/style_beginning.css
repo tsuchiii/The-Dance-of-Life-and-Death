@@ -4,8 +4,8 @@
 }
 
 body {
-  display:flex;
 
+  display:flex;
   justify-content: center;
   background-image: url(../img/backroundmain.png);
   background-size: stretch;
@@ -18,6 +18,7 @@ body {
   padding: 0;
   background-attachment: fixed;
   justify-content: center;
+color:black;
 }
 
 .main_container {
@@ -55,13 +56,14 @@ h2 {
   font-family: "Fleur De Leah", cursive;
   letter-spacing: 3px;
   font-size: 45px;
-
   align-content: center;
+  opacity: 0.6;
 }
 h3 {
   font-family: "Bilbo", cursive;
 
   font-size: 36px;
+  opacity: 0.6;
 }
 
 a {
@@ -73,12 +75,15 @@ color: black;
   text-decoration: none;
   font-size: 30px;
   font-weight: bolder;
+  opacity: 0.6;
 }
 
 img {
   padding-right: 10%;
   padding-left:20%;
   width: 450px;
+  mask-image: radial-gradient(circle, rgba(0, 0, 0, 1) 1%, rgba(0, 0, 0, 0) 80%);
+  -webkit-mask-image: gradient(circle, rgba(0, 0, 0, 1) 100%, rgba(0, 0, 0, 0) 100%);
 }
 
 
@@ -92,6 +97,7 @@ padding-bottom: 5%;
 padding-right: 10%;
 text-align: justify;
 justify-content: center;
+opacity: 0.6;
 }
 
 footer {
